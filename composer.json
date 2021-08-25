@@ -1,0 +1,13 @@
+{
+    "autoload": {
+        "files": [
+            "src/web.php"
+        ],
+        "classmap": [
+            "src/"
+        ]
+    },
+    "require": {
+        "retailcrm/api-client-php": "~6.0"
+    }
+}
