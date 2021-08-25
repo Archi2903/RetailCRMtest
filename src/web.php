@@ -31,6 +31,7 @@ $offer->article = 'AZ105R-Azalita';
 
 $item->offer = $offer;
 
+$order->status = 'trouble';
 $order->items = [$item];
 $order->number = '29031996';
 $order->orderType = 'fizik';
@@ -39,8 +40,7 @@ $order->firstName = 'FirstName';
 $order->lastName = 'LastName';
 $order->patronymic = 'Patronymic';
 $order->customer['site'] = 'test';
-$order->status = 'trouble';
-$order->customerComment = 'https://github.com/Archi2903/rectailCrm-Api';
+$order->customerComment = 'https://github.com/Archi2903/RetailCRMtest';
 $order->customFields = [
     "prim" => 'https://docs.google.com/document/d/1coPXabBsKyVpKs9Qmf-P5rNpGoOw8Rf3k94YgiK7Xj8/edit',
 ];
